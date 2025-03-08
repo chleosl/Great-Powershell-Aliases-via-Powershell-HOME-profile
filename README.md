@@ -1,1 +1,14 @@
-My PowerShell Profile utilizing the sets of aliases used in VS code PowerShell Terminal, via utilizing an `if ($env:TERM_PROGRAM -eq "vscode {` code.
+# VS Code PowerShell Profile
+
+This repository contains a PowerShell profile for use in Visual Studio Code's integrated terminal.
+
+## Features
+
+- VS Code integrated terminal detection using `if ($env:TERM_PROGRAM -eq "vscode")` line
+- Command to easily run Flutter apps in Chrome (`rc`)
+- Commands to quickly start a Node.js server for CORS proxy (`nsv`, `nodeserver`, `nodesvr`)
+
+## Installation
+
+1. Save this file to your PowerShell profile path: you can find it using `$PROFILE`, or making it using `if (-not (Test-Path $PROFILE)) { New-Item -Path $PROFILE -ItemType File -Force }`.
+2. Restart PowerShell, and the settings will automatically apply in VS Code's integrated terminal.

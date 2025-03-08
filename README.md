@@ -1,4 +1,4 @@
-# VS Code PowerShell Profile
+# Alias Set in PowerShell Profile
 
 This repository contains a PowerShell profile for use in Visual Studio Code's integrated terminal.
 

@@ -10,5 +10,5 @@ This repository contains a PowerShell profile for use in Visual Studio Code's in
 
 ## Installation
 
-1. Save this file to your PowerShell profile path: you can find it using `$PROFILE`, or making it using `if (-not (Test-Path $PROFILE)) { New-Item -Path $PROFILE -ItemType File -Force }`.
-2. Restart PowerShell, and the settings will automatically apply in VS Code's integrated terminal.
+1. Save this file in your PowerShell profile path: you can find it using `$PROFILE`, or you can manually build it using `if (-not (Test-Path $PROFILE)) { New-Item -Path $PROFILE -ItemType File -Force }`.
+2. Restart PowerShell, and the settings will automatically apply in the VS Code's integrated terminal.

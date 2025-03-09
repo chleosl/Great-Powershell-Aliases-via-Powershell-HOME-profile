@@ -6,7 +6,7 @@ This repository contains a PowerShell profile for use in Visual Studio Code's in
 
 - VS Code integrated terminal detection using `if ($env:TERM_PROGRAM -eq "vscode")` line
 - Command to easily run Flutter apps in Chrome (`rc`)
-- Command to easily run custom Flutter apps in Chrome (`rcc #name`)
+- Command to easily run custom Flutter apps in Chrome (`rcc #name`) ex)`PS yourProjectDirectory>rcc main2`
 - Commands to quickly start a Node.js server for CORS proxy (`nsv`, `nodeserver`, `nodesvr`)
 
 ## Installation
